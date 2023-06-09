@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Faarah Saed</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="frame">
+    <div class="calculator">
+      <h1 class="title">Loan Calculator</h1>
+      <div class="display">
+        <input type="number" id="loanAmount" placeholder="Loan Amount" required>
+        <input type="number" id="interestRate" placeholder="Interest Rate (%)" required>
+        <input type="number" id="loanTerm" placeholder="Loan Term (months)" required>
+      </div>
+      <button onclick="calculateLoan()">Calculate</button>
+      <div id="result" class="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
